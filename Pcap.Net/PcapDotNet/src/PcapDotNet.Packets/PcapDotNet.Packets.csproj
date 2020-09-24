@@ -17,7 +17,7 @@
     <SccAuxPath>SAK</SccAuxPath>
     <SccProvider>SAK</SccProvider>
     <SignAssembly>true</SignAssembly>
-    <AssemblyOriginatorKeyFile>..\PcapDotNet.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>pcap-base.snk</AssemblyOriginatorKeyFile>
     <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
@@ -604,6 +604,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="..\PcapDotNet.snk" />
+    <None Include="pcap-base.snk" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
